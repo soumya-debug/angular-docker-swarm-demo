@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: soumya261412/angular-app:latest
+    image: soumyadocker26/angular-app:latest
     ports:
       - "80:80"
     networks:
